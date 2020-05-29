@@ -1,0 +1,104 @@
+body{
+ background-color: #F8D8C4;
+  font-family: PT Serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.header{
+  width: 100%;
+  max-width: 768px;
+  margin: 38px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.logo{
+  margin-left: 13px;
+}
+
+.nav{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav>li {
+  margin-left: 15px;
+  color: #ffffff;
+}
+
+.page {
+}
+
+.page-top{
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.block_yellow{
+  position: absolute;
+  width: 160px;
+  height: 446px;
+  left: 0px;
+  top: 0px;
+  background: #D8B429;
+  z-index: -1;
+}
+.block_deeppink{
+  position: absolute;
+  width: 83px;
+  height: 446px;
+  left: 160px;
+  top: 0px;
+  background: #E2B29A;
+  z-index: -1;
+
+}
+.block_pink{
+  position: absolute;
+  width: 525px;
+  height: 446px;
+  left: 243px;
+  top: 0px;
+  background: #F8D8C4;
+  z-index: -1;
+
+}
+
+.main_title{
+  position: absolute;
+  width: 672px;
+  height: 51px;
+  left: 43px;
+  top: 241px;
+}
+
+.pic1{
+  position: absolute;
+  width: 62px;
+  height: 67px;
+  left: 430px;
+  top: 165px;
+}
+
+.pic2{
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 108px;
+  top: 298px;
+}
+
+.page2{
+  display: flex;
+  position: absolute;
+  width: 768px;
+  height: 1372px;
+  left: 0px;
+  top: 446px;
+
+  background: #F8D8C4;
+}
